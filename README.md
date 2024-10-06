@@ -1,86 +1,73 @@
-# Zotion
+# Algorithim-Activists_034
+Project for **Real Time Notion Like Application**.
 
-This project is a simplified clone of the popular productivity application, Notion. It's designed to replicate some of the core features of Notion, providing a platform where users can create, edit, and organize their notes in a flexible and intuitive interface.
+# Real Docs
+RealDocs is a web-based document management and note-taking application inspired by Notion. It enables users to create, edit, organize, and manage their content in a highly customizable and user-friendly environment. The application combines rich-text editing, collaborative features, and a flexible workspace structure,making it ideal for personal productivity or team-based documentation workflows.
 
-It uses Convex as the backend, which is a real-time database that allows for instant data updates. The application also uses Edgestore, a distributed key-value store, to manage the images and files uploaded by the users.The user authentication is handled by Clerk, a secure and scalable user authentication API.
 
-## Live
+## Run Locally
 
-Zotion - [https://zotion-app.vercel.app/](https://zotion-app.vercel.app/)
+Clone the project
 
-## Features
-
-**Productivity and Organization**s
-
-- 📝 Notion-style editor for seamless note-taking
-- 📂 Infinite children documents for hierarchical organization
-- ➡️🔀⬅️ Expandable and fully collapsible sidebar for easy navigation
-- 🎨 Customizable icons for each document, updating in real-time
-- 🗑️ Trash can with soft delete and file recovery options
-
-**User Experience**
-
-- 🌓 Light and Dark mode to suit preferences
-- 📱 Full mobile responsiveness for productivity on the go
-- 🛬 Landing page for a welcoming user entry point
-- 🖼️ Cover image for each document to add a personal touch
-
-**Data Management**
-
-- 🔄 Real-time database for instant data updates
-- 📤📥 File upload, deletion, and replacement options
-
-**Security and Sharing**
-
-- 🔐 Authentication to secure notes
-- 🌍 Option to publish your note to the web for sharing
-
-## Technologies
-
-![NextJS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![Shadcn-ui](https://img.shields.io/badge/shadcn/ui-000000.svg?style=for-the-badge&logo=shadcn/ui&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)
-![Clerk](https://img.shields.io/badge/Clerk-6C47FF.svg?style=for-the-badge&logo=Clerk&logoColor=white)
-![Convex](https://img.shields.io/badge/Convex-ee342f.svg?style=for-the-badge&logo=Convex&logoColor=white)
-![Edgestore](https://img.shields.io/badge/Edgestore-a57fff.svg?style=for-the-badge&logo=Edgestore&logoColor=white)
-![Blocknote](https://img.shields.io/badge/Blocknote-ff8c00.svg?style=for-the-badge&logo=Blocknote&logoColor=white)
-
-## Installation
-
-1. Clone the repository
-2. Install the dependencies
-
-```
-npm install
+```bash
+  git clone https://github.com/RahulGeorge96/Algorithm-Activists_034.git
 ```
 
-3. Set up the environment variables
+Go to the project directory
 
-```
-# Deployment used by `npx convex dev`
-CONVEX_DEPLOYMENT=
-NEXT_PUBLIC_CONVEX_URL=
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-
-EDGE_STORE_ACCESS_KEY=
-EDGE_STORE_SECRET_KEY=
+```bash
+  cd Algorithm-Activists_034
 ```
 
-4. Run Convex
+Install dependencies
 
-```
-npx convex dev
-```
-
-5. Run the development server
-
-```
-npm run dev
+```bash
+  npm install
 ```
 
-## Acknowledgements
+Start the server
 
-[CodewithAntonio](https://www.youtube.com/@codewithantonio)
+```bash
+  npm run dev
+```
+
+
+## 🔗 Developers
+- Rahul George
+
+- Mohd Saiful Islam
+
+- Dhananjay Omprakash Choudhary
+  
+- Sagar Rathod
+
+  
+## Tech Stack
+
+**Frontend:** HTML, CSS, React.js,Typescript,Next.js   
+*libraries:* Redux, ChakraUI, axios, React-router-dom, react-icons
+                                   
+**Backend:** Convex,Clerk,EdgeStore
+
+
+# Project Type
+- Frontend | Backend
+
+# Deployed Link
+- https://notion-application.vercel.app/
+
+# Presentation Link
+-
+  
+# Features 
+- User Sign-Up and Sign-In.
+- Create and Manage Documents.
+- Rich Text Editing.
+- Search Documents.
+
+
+<img src="./assets/landing-pg.png">
+
+
+
+

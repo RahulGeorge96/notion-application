@@ -155,9 +155,9 @@ const Navigation = () => {
           <ChevronsLeft className="h-6 w-6" />
         </div>
         <div>
-          <UserItem />
-          <Item label="Search" icon={Search} isSearch onClick={search.onOpen} />
-          <Item label="Settings" icon={Settings} onClick={settings.onOpen} />
+           <UserItem /> 
+           <Item label="Search" icon={Search} isSearch onClick={search.onOpen} /> 
+           <Item label="Settings" icon={Settings} onClick={settings.onOpen} /> 
           <Item onClick={handleCreate} label="New page" icon={PlusCircle} />
         </div>
         <div className="mt-4">
